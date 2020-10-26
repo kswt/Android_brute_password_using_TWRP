@@ -25,5 +25,5 @@ for passw in res:
     if 'Data successfully decrypted' in cmd_out:
         print ("\nYour password is: {}\nBye!".format(passw))
         break
-else
+else:
     print("\nNo result.")
